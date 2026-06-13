@@ -1,0 +1,34 @@
+ # OS files
+ .DS_Store
+ Thumbs.db
+ desktop.ini
+ *.swp
+ *.swo
+ *~
+ *.orig
+ 
+ # Editor / IDE
+ .vscode/
+ .idea/
+ *.sublime-project
+ *.sublime-workspace
+ *.iml
+ .vs/
+ 
+ # Node (预留 — 后续若引入构建工具可直接用)
+ node_modules/
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+ 
+ # Environment
+ .env
+ .env.local
+ .env.*.local
+ 
+ # Logs
+ *.log
+ 
+ # Temp
+ tmp/
+ temp/
